@@ -55,7 +55,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <color key="backgroundColor" red="0.27058823529999998" green="0.52549019610000003" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="gum-uc-cVU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Di-mB-EW6"/>
@@ -138,7 +138,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uEJ-8X-F6K"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <color key="backgroundColor" red="0.27058823529999998" green="0.52549019610000003" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="2tV-63-Emf" firstAttribute="leading" secondItem="uEJ-8X-F6K" secondAttribute="leading" constant="64" id="0vf-R2-V0n"/>
@@ -176,7 +176,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quis finalizado!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vw-pe-0aj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz finalizado!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vw-pe-0aj">
                                 <rect key="frame" x="64" y="112" width="265" height="37"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="31"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -202,7 +202,7 @@
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reiniciar Quis">
+                                <buttonConfiguration key="configuration" style="plain" title="Reiniciar Quiz">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -211,7 +211,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zzx-bC-aAv"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <color key="backgroundColor" red="0.27058823529999998" green="0.52549019610000003" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="4vw-pe-0aj" firstAttribute="leading" secondItem="Zzx-bC-aAv" secondAttribute="leading" constant="64" id="4Ym-DD-1UL"/>
                             <constraint firstItem="1pw-Nc-aRz" firstAttribute="top" secondItem="yt7-i5-ypJ" secondAttribute="bottom" constant="72" id="CPI-Jp-K9x"/>
@@ -258,14 +258,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="du9-bY-IRk"/>
         <segue reference="y3w-2P-dDO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="quislogo" width="792" height="824"/>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

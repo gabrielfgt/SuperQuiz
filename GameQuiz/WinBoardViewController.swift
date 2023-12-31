@@ -6,9 +6,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class WinBoardViewController: UIViewController {
-
+    var audioPlayer = AVAudioPlayer()
     var pontuation: Int?
     
     @IBOutlet weak var resultadoLabel: UILabel!
@@ -19,6 +20,7 @@ class WinBoardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        playAudioWin()
         configLayout()
         configWinBoard()
     }
@@ -42,5 +44,13 @@ class WinBoardViewController: UIViewController {
         percentualLabel.text = "Assertividade de: \(percentual)%."
         
     }
-
+    
+    func playAudioWin(){
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "winSound", ofType: "mp3")!))
+            audioPlayer.play()
+        } catch {
+            print(error)
+        }
+    }
 }
